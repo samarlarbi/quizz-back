@@ -11,7 +11,7 @@ app.use(express.json())
  
 
 app.get('/api', (req, res) => {
-    console.log("req comming")
+    console.log("req comminggg")
   res.status(200).json({ message: 'hello from express' });
 });
 
