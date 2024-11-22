@@ -18,6 +18,8 @@ app.get('/api', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
+
+
 mongoose.connect(process.env.ATLAS_URI).then(()=>{
     console.log("connected succ")
     }).catch((error)=>{
